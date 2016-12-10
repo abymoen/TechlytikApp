@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/statusImage"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: "
+        android:textColor="#000000"
+        android:id="@+id/statusText"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Armed"
+        android:id="@+id/monitorArmText"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">"
+        android:textSize="35sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monitor ID"
+        android:id="@+id/monitorIdText"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="#000000"
+        android:id="@+id/monitorLocationText"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="60dp"/>
+
+</RelativeLayout>
